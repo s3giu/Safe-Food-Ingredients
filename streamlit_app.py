@@ -4,8 +4,8 @@ from PIL import Image
 
 # --- CONFIGURATION ---
 # This looks for the key in Streamlit's internal secrets manager
-api_key = st.secrets["GOOGLE_API_KEY"]
-app_password = st.secrets["APP_PASSWORD"]
+api_key = st.secrets["AIzaSyBvCpvGYZ3070TXSWLb49YJJUiwWvT9JXk"]
+app_password = st.secrets["pizza"]
 
 genai.configure(api_key=api_key)
 
